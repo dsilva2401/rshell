@@ -1,0 +1,28 @@
+{
+  "name": "resources",
+  "version": "0.0.2",
+  "authors": [
+    "Diego Silva <dsilva2401@gmail.com>"
+  ],
+  "main": "dist/resources.min.js",
+  "license": "MIT",
+  "ignore": [
+    "package.json",
+    ".gitignore",
+    "node_modules",
+    "bower_components",
+    "demo",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/dsilva2401/resources",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.2",
+    "commit": "e5b9f4eb9e91f9acc50aa4124d5e7c6be11b0491"
+  },
+  "_source": "git://github.com/dsilva2401/resources.git",
+  "_target": "~0.0.2",
+  "_originalSource": "resources"
+}

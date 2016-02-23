@@ -1,0 +1,21 @@
+<div class="response-status">
+	<button
+		ng-if="models.code"
+		class="code"
+	>Code: {{ models.code }}</button>
+	<button
+		ng-if="models.error"
+		class="error"
+	>Error: {{ models.error }}</button>
+</div>
+<textarea
+	placeholder="Response.."
+	class="response"
+	ng-model="models.response"
+></textarea>
+<form
+	class="inputs-container"
+	ng-submit="methods.submit()"
+>
+	<input placeholder="Command.." ng-model="models.cmd">
+</form>

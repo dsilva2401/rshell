@@ -1,0 +1,69 @@
+/* Classes */
+	.cover {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+	}
+
+/* App */
+	.response-status {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 50px;
+		background: #eee;
+	}
+	.response-status button {
+		border: none;
+		background: none;
+		height: 100%;
+		float: left;
+	}
+	.response-status button:focus {
+		outline: none;
+	}
+	.response-status .code {
+		width: 100px;
+		color: #aaa;
+		font-size: 16px;
+	}
+	.response-status .error {
+		width: calc( 100% - 100px );
+		color: #333;
+		font-size: 18px;
+	}
+	.response {
+		position: absolute;
+		left: 0px;
+		top: 50px;
+		width: 100%;
+		height: calc( 100% - 100px );
+		border: none;
+		font-size: 18px;
+	}
+	.response:focus {
+		outline: none;
+	}
+
+	.inputs-container {
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		height: 50px;
+		border: none;
+	}
+	.inputs-container input {
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		border: none;
+		height: 100%;
+		text-align: center;
+		font-size: 25px;
+		background: #ddd;
+	}
