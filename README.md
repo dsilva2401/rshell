@@ -3,12 +3,17 @@ RShell
 
 A http remote shell controller
 
-#### Server
+#### Installation
+```bash
+sudo npm install -g rshell
+```
+
+#### Start remote shell server
 ```bash
 rshell --server --port 3000
 ```
 
-#### Client
+#### Start listening for remote commands (client)
 ```bash
 rshell --domain http://localhost:3000 --clientId mypcX
 ```
